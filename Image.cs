@@ -14,9 +14,9 @@ namespace ASCII_Art_Generator
 
             using var image = new Bitmap(inputStream);
 
-            int outputWidth = image.Width / 3;
+            int outputWidth = image.Width / 3; // Tu można zmienić szerokość
             int widthStep = Math.Max(1, image.Width / outputWidth);
-            int outputHeight = image.Height / 3;
+            int outputHeight = image.Height / 3; // Tu można zmienić wysokość
             int heightStep = Math.Max(1, image.Height / outputHeight);
 
             StringBuilder asciiBuilder = new(outputWidth * outputHeight);
@@ -29,6 +29,7 @@ namespace ASCII_Art_Generator
                     var asciiChar = asciiChars[grayValue * (asciiChars.Length - 1) / 255];
                     asciiBuilder.Append(asciiChar);
                     asciiBuilder.Append(asciiChar);
+                    // Dodaję to dwa razy z powou, żeby obraz w konsoli wyglądał bardziej naturalnie
                 }
                 asciiBuilder.AppendLine();
             }
