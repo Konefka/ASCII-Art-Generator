@@ -29,7 +29,7 @@ namespace ASCII_Art_Generator
                     var asciiChar = asciiChars[grayValue * (asciiChars.Length - 1) / 255];
                     asciiBuilder.Append(asciiChar);
                     asciiBuilder.Append(asciiChar);
-                    // Dodaję to dwa razy z powou, żeby obraz w konsoli wyglądał bardziej naturalnie
+                    // Dodaję to dwa razy z takiego powodu, żeby obraz w konsoli wyglądał bardziej naturalnie
                 }
                 asciiBuilder.AppendLine();
             }
