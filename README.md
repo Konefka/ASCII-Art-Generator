@@ -1,29 +1,29 @@
 # ASCII-Art-Generator
-Program przetwarza obraz który zosta³ podany piksel po pikselu i wyœwietla wynik w konsoli
+Program przetwarza obraz ktÃ³ry zostaÅ‚ podany piksel po pikselu i wyÅ›wietla wynik w konsoli
 > [!NOTE]
-> **Aby program dzia³a³, nale¿y wpisaæ œcie¿kê do obrazu.**
-> **Mo¿na w programie zmieniæ znaki, które maj¹ byæ u¿yte, jak i iloœæ pikseli, które maj¹ byæ reprezentowane przez znaki **
+> **Aby program dziaÅ‚aÅ‚, naleÅ¼y wpisaÄ‡ Å›cieÅ¼kÄ™ do obrazu.**<br>
+> **MoÅ¼na w programie zmieniÄ‡ znaki, ktÃ³re majÄ… byÄ‡ uÅ¼yte, jak i iloÅ›Ä‡ pikseli, ktÃ³re majÄ… byÄ‡ reprezentowane przez znaki.**
 <img width="1280" height="723" alt="obraz" src="https://github.com/user-attachments/assets/78d38c4e-e753-4f1e-b897-11afa3e60598" />
 
 ## Instalacja
 
-### Otwórz terminal
+### OtwÃ³rz terminal
 
 ```bash
-cd (tam, gdzie chcesz przechowaæ projekt)
+cd (tam, gdzie chcesz przechowaÄ‡ projekt)
 git clone https://github.com/Konefka/RPG-Console.git
 ```
 
-### Otwórz Eksplorator plików
+### OtwÃ³rz Eksplorator plikÃ³w
 
 ```
-- PrzejdŸ do folderu ASCII-Art-Generator
-- Otwórz, po czym w³¹cz ASCII-Art-Generator.sln
+- PrzejdÅº do folderu ASCII-Art-Generator
+- OtwÃ³rz, po czym wÅ‚Ä…cz ASCII-Art-Generator.sln
 ```
 
 > [!WARNING]
-> 1. Je¿eli automatycznie nie w³¹cza Ci siê Visual studio:
->    - Naliœnij na RPG_Console.sln prawym przyciskiem - Otwórz za pomoc¹ - Microsoft Visual Studio 2022
+> 1. JeÅ¼eli automatycznie nie wÅ‚Ä…cza Ci siÄ™ Visual studio:
+>    - NaliÅ›nij na RPG_Console.sln prawym przyciskiem - OtwÃ³rz za pomocÄ… - Microsoft Visual Studio 2022
 > 
-> 2. Je¿eli wyskakuje Ci b³¹d, to jest szansa, ¿e nie masz zainstalowanego .NET SDK 9.0
->    - Wtedy idŸ do https://dotnet.microsoft.com/en-us/download, zainstaluj i spróbuj jeszcze raz
+> 2. JeÅ¼eli wyskakuje Ci bÅ‚Ä…d, to jest szansa, Å¼e nie masz zainstalowanego .NET SDK 9.0
+>    - Wtedy idÅº do https://dotnet.microsoft.com/en-us/download, zainstaluj i sprÃ³buj jeszcze raz
